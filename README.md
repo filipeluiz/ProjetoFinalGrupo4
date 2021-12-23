@@ -26,8 +26,8 @@ consulta).
 
 ### API CRUD
 
-- [  ] Recuperação de todas as contas bancárias
-- [  ] Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titular)
+- [ ] Recuperação de todas as contas bancárias
+- [ ] Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titular)
 
 # Tecnologias Usadas
 
