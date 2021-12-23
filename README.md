@@ -1,15 +1,14 @@
-# Projeto final trilha de especialização grupo 04 PCD 1
+# DecolarJava
 
 
-![Capa do Projeto](https://picsum.photos/850/280)
+<!-- ![Capa do Projeto](https://picsum.photos/850/280) -->
+![Foguete-01](https://user-images.githubusercontent.com/8229421/147270372-0b71d98a-d0d2-46ee-9b9a-c263283f58ef.jpg)
 
 # Sobre o Projeto
 
-Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
-
-<h4 align="center"> 
-	🚧  Em desenvolvimento . . .
-</h4>
+Estamos em um contexto de gerenciamento de clientes e contas bancárias da instituição.
+Precisamos disponibilizar uma API que forneça dados de clientes e contas (inicialmente para
+consulta).
 
 # Índice/Sumário
 
@@ -23,19 +22,17 @@ Escreva aqui um parágrafo contendo uma descrição ou resumo do seu projeto.
 * [Agradecimentos](#agradecimentos)
 
 
-# Requisitos Funcionais 
+# Requisitos Funcionais
 
-- [ ] Cliente
-- [ ] Tipo de Contas
-- [ ] Cadastrar Cliente
-- [ ] Remover Cliente
-- [ ] Visualizar Cliente
-- [ ] Visualizar e Atualizar Informações do Cliente
+### API CRUD
+
+- [  ] Recuperação de todas as contas bancárias
+- [  ] Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titular)
 
 # Tecnologias Usadas
 
-- [MySQL](https://www.mysql.com/)
 - [SpringBoot](https://spring.io/projects/spring-boot)
+- [MySQL](https://www.mysql.com/)
 
 # Contribuição
 
@@ -43,10 +40,11 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 
 # Autores
 
-[Filipe Luiz](https://github.com/filipeluiz)
-[XXXX](XXXX)
-[XXXX](XXXX)
-[XXXX](XXXX)
+- [Filipe Luiz](https://github.com/filipeluiz)
+- [Jorge Lemes](https://github.com/jorgelemes)
+- [Karina Ribeiro](https://github.com/karinasrib)
+- [Luan Felipe](XXXX)
+- [Márcia Kalamarz](https://github.com/mkalamarz1)
 
 # Licença
 
