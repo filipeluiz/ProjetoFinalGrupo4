@@ -22,7 +22,7 @@ consulta).
 * [Agradecimentos](#agradecimentos)
 
 
-# Requisitos Funcionais
+# Requisitos Funcionais.
 
 ### API CRUD
 
