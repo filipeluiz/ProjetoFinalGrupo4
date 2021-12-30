@@ -2,11 +2,11 @@ package br.itau.decolar.model;
 
 public class Contas {
 
-    int numero;
-    int agencia;
-    double saldo;
-    Clientes titular;
-    int tipoConta;
+    private int numero;
+    private int agencia;
+    private double saldo;
+    private Clientes titular;
+    private int tipoConta;
 
     public int getNumero() {
         return numero;
