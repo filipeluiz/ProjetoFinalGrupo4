@@ -22,7 +22,7 @@ consulta).
 * [Agradecimentos](#agradecimentos)
 
 
-# Requisitos Funcionais
+# Requisitos Funcionais.
 
 ### API CRUD
 
@@ -43,7 +43,7 @@ Leia o arquivo [CONTRIBUTING.md](CONTRIBUTING.md) para saber detalhes sobre o no
 - [Filipe Luiz](https://github.com/filipeluiz)
 - [Jorge Lemes](https://github.com/jorgelemes)
 - [Karina Ribeiro](https://github.com/karinasrib)
-- [Luan Felipe](XXXX)
+- [Luan Felipe](https://github.com/LuanFelipeCB)
 - [Márcia Kalamarz](https://github.com/mkalamarz1)
 
 # Licença
