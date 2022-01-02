@@ -8,4 +8,5 @@ import br.itau.decolar.model.Cliente;
 
 public interface ClienteRepo extends CrudRepository<Cliente, Long> {
   public Page<Cliente> findAll(Pageable pageable);
+
 }
