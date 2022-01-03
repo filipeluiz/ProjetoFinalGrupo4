@@ -17,35 +17,48 @@ public class Conta {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long numero;
+    @Column(name = "id_conta")
+    private long codigo;
+
+    @Column(name = "numero", length = 4, nullable = false)
+    private String numero;
     
-    @Column(name = "agencia")
-    private int agencia;
+    @Column(name = "agencia", length = 9, nullable = false)
+    private String agencia;
 
     @Column(name = "saldo")
     private double saldo;
 
     @ManyToOne
-    @JoinColumn(name = "cod_cliente")
+    @JoinColumn(name = "id_cliente")
     @JsonIgnoreProperties("contas")
     private Cliente titular;
 
-    @Column(name = "tipo_conta", length = 50, nullable = false, unique = true)   
-    private String tipoConta;
+    @ManyToOne
+    @JoinColumn(name="id_tipo_conta")
+    private TipoConta tipoConta;
     
-    public long getNumero() {
+    public long getCodigo() {
+        return codigo;
+    }
+
+    public void setCodigo(long codigo) {
+        this.codigo = codigo;
+    }
+
+    public String getNumero() {
         return numero;
     }
 
-    public void setNumero(long numero) {
+    public void setNumero(String numero) {
         this.numero = numero;
     }
 
-    public int getAgencia() {
+    public String getAgencia() {
         return agencia;
     }
 
-    public void setAgencia(int agencia) {
+    public void setAgencia(String agencia) {
         this.agencia = agencia;
     }
 
@@ -65,11 +78,11 @@ public class Conta {
         this.titular = titular;
     }
 
-    public String getTipoConta() {
+    public TipoConta getTipoConta() {
         return tipoConta;
     }
     
-    public void setTipoConta(String tipoConta) {
+    public void setTipoConta(TipoConta tipoConta) {
         this.tipoConta = tipoConta;
     }    
 }

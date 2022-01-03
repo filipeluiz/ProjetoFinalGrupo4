@@ -18,6 +18,7 @@ public class Cliente {
     
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_cliente")
     private long codigo;
     
     @Column(name = "nome", length = 200, nullable = false)
@@ -83,6 +84,4 @@ public class Cliente {
     public void setContas(List<Conta> contas) {
         this.contas = contas;
     }
-
-    
 }
