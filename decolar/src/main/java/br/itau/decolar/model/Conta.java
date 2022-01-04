@@ -20,10 +20,10 @@ public class Conta {
     @Column(name = "id_conta")
     private long codigo;
 
-    @Column(name = "numero", length = 4, nullable = false)
+    @Column(name = "numero", length = 255, nullable = false)
     private String numero;
     
-    @Column(name = "agencia", length = 9, nullable = false)
+    @Column(name = "agencia", length = 255, nullable = false)
     private String agencia;
 
     @Column(name = "saldo")
