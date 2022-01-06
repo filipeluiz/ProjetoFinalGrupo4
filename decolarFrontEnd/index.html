@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DecolarJava</title>
+  <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+
+  <h1 class="logotipo">
+    <a href="https://www.itau.com.br/" target="_blank">
+      <img src="./src/img/Banco_Itaú_logo.svg" alt="logotipo Itaú">
+    </a>
+  </h1>
+
+  <main class="mainTable">
+    <table class="table">
+      <caption>Recuperação de todas as contas bancárias</caption>
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">Agência</th>
+          <th scope="col">Número da Conta</th>
+          <th scope="col">Saldo</th>
+          <th scope="col">Titular</th>
+          <th scope="col">Tipo de conta</th>
+        </tr>
+      </thead>
+      <tbody class="tabelaBody">
+      </tbody>
+    </table>
+    <button class="btn">Atualizar a tabela</button>
+
+    <div class="box">
+      <input class="searchbar" type="text" name="search" placeholder="Procure ID..."> 
+    </div>
+
+    <table class="table2">
+      <caption>Recuperação dos detalhes de 1 conta bancária</caption>
+      <thead>
+        <tr>
+          <th scope="col">id</th>
+          <th scope="col">Agência</th>
+          <th scope="col">Número da Conta</th>
+          <th scope="col">Saldo</th>
+          <th scope="col">id Cliente</th>
+          <th scope="col">CPF</th>
+          <th scope="col">E-mail</th>
+          <th scope="col">Nome</th>
+          <th scope="col">Telefone</th>
+          <th scope="col">Tipo de conta</th>
+        </tr>
+      </thead>
+      <tbody class="tabelaBodySearch"> 
+      </tbody>
+    </table>     
+  </main>
+
+  <script src="./src/js/main.js"></script>
+</body>
+</html>
