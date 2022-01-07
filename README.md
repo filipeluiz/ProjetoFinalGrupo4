@@ -24,15 +24,21 @@ consulta).
 
 # Requisitos Funcionais.
 
-### API CRUD
+### API 
 
-- [ ] Recuperação de todas as contas bancárias
-- [ ] Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titular)
+- [x] Recuperação de todas as contas bancárias
+- [x] Recuperação dos detalhes de 1 conta bancária (inclusive dados do seu titular)
 
 # Tecnologias Usadas
 
+Back-End
 - [SpringBoot](https://spring.io/projects/spring-boot)
 - [MySQL](https://www.mysql.com/)
+
+Front-End
+- [HTML5]()
+- [CSS3]()
+- [JavaScript]()
 
 # Contribuição
 
