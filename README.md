@@ -59,3 +59,8 @@ Este projeto está licenciado sob a Licença MIT,  consulte o arquivo [LICENSE.m
 # Agradecimentos
 
 Seção livre para você agradecer a todos que contribuiram para a execução do seu projeto.
+
+Gostaríamos de agradecer ao Itaú por essa oportunidade única de ingressar na aréa de Tecnologia e por acreditar em nossas capacidades e habilidades.
+Agradecer ao pessoal da Gama por ter dado todo suporte necessário e principalmente ao Professor Emerson que nos ensinou, auxiliou e mostrou como nos apaixonar pela programação. 
+E agradecer ao professor Humberto pelas orientações finais.
+Esses são os agradecimentos da Equipe DecolarJava pois somos PCD (Pessoas Com Determinação)!!!
